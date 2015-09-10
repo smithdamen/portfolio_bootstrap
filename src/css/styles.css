@@ -1,3 +1,6 @@
+.fa {
+  font-size: 40px;
+}
 #contact-section input {
   width: 100%;
 }
@@ -6,4 +9,7 @@
 }
 #contact-section .contact-information {
   list-style-type: none;
+}
+#portfolio-section .portfolio-image {
+  width: 100%;
 }
