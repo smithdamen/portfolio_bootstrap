@@ -1,0 +1,9 @@
+#contact-section input {
+  width: 100%;
+}
+#contact-section textarea {
+  width: 100%;
+}
+#contact-section .contact-information {
+  list-style-type: none;
+}
