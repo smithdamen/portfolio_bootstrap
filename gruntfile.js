@@ -11,6 +11,12 @@ module.exports = function(grunt) {
                   "src/css/styles.css": "src/less/main.less"
               }
           }
+      },
+      watch: {
+          css: {
+              files: "src/less/*.less",
+              tasks: ["less"]
+          }
       }
     
   });
