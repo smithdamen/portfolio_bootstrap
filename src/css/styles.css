@@ -1,6 +1,21 @@
 .fa {
   font-size: 40px;
 }
+#portfolio-section .portfolio-image {
+  width: 100%;
+}
+#blog-section .column-sizer {
+  width: 50%;
+}
+#blog-section .grid-item {
+  width: 50%;
+}
+#blog-section .grid-item img {
+  width: 100%;
+}
+#blog-section .width-2 {
+  width: 100%;
+}
 #contact-section input {
   width: 100%;
 }
@@ -10,7 +25,4 @@
 #contact-section .contact-information {
   list-style-type: none;
   font-size: 40px;
-}
-#portfolio-section .portfolio-image {
-  width: 100%;
 }
