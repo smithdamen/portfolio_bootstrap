@@ -4,6 +4,9 @@
 #portfolio-section .portfolio-image {
   width: 100%;
 }
+#portfolio-section .mix {
+  display: none;
+}
 #blog-section .column-sizer {
   width: 50%;
 }
