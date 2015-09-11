@@ -1,5 +1,43 @@
+body {
+  color: #212121;
+}
+h1 {
+  text-transform: uppercase;
+}
+h3 {
+  text-transform: uppercase;
+  color: #212121;
+  font-size: 36px;
+}
+h4 {
+  text-transform: uppercase;
+  color: #727272;
+  font-size: 32px;
+}
+p {
+  color: #727272;
+}
+hr {
+  color: #b6b6b6;
+  width: 50%;
+}
+nav {
+  background-color: #ff5722;
+  color: #ffffff;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #e64a19;
+}
+nav a:active {
+  background-color: #e64a19;
+}
 .fa {
   font-size: 40px;
+  color: #ff5722;
 }
 #portfolio-section .portfolio-image {
   width: 100%;

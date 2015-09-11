@@ -12,8 +12,55 @@
 //
 
 //styles
+body {
+    color: @primaryText;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: @primaryText;
+    font-size: 36px;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: @secondaryText;
+    font-size: 32px;
+}
+
+p {
+    color: @secondaryText;
+}
+
+hr {
+    color: @divider;
+    width: 50%;
+}
+
+nav {
+    background-color: @primary;
+    color: @textIcon;
+    
+    a {
+        color: @textIcon;
+        text-decoration: none;
+        
+        &:hover {
+            background-color: @darkPrimary;
+        }
+        &:active {
+            background-color: @darkPrimary;
+        }
+    }
+}
+
 .fa {
     font-size: 40px;
+    color: @primary;
 }
 
 #portfolio-section {
