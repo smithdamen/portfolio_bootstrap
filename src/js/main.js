@@ -1,7 +1,7 @@
 $(document).ready(function(){
    //scrollspy
    $("body").scrollspy({
-       target: "#navbar-main",
+       target: "#navbar-collapse",
        offset: 50
    });
    
