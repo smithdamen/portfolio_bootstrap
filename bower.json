@@ -28,6 +28,7 @@
     "jquery.scrollTo": "~2.1.1",
     "less": "~2.5.1",
     "masonry": "~3.3.2",
-    "mixitup": "bower-mixitup#~2.0.4"
+    "mixitup": "bower-mixitup#~2.0.4",
+    "progressbar.js": "~0.9.0"
   }
 }
