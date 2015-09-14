@@ -10,6 +10,16 @@ module.exports = function(grunt) {
               files: {
                   "src/css/styles.css": "src/less/main.less"
               }
+          },
+          uglify: {
+              options: {
+                    mangle: false
+              },
+              build: {
+                  files: {
+                      'src/css/styles.min.css': ['src/css/styles.css']
+                  }
+              }
           }
       },
       watch: {

@@ -12,10 +12,11 @@ h3 {
 h6 {
   text-transform: uppercase;
   color: #727272;
-  font-size: 32px;
+  font-size: 16px;
 }
 p {
   color: #727272;
+  font-size: 11px;
 }
 hr {
   color: #b6b6b6;
